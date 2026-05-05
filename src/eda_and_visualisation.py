@@ -171,10 +171,4 @@ def scatter_influence(df):
     return fig
 
 
-# ── Run all (test) ────────────────────────────────────────────
-if __name__ == '__main__':
-    scatter_goals_vs_assists(df).show()
-    radar_comparison(df, "Ousmane Dembélé", "Lamine Yamal").show()
-    scatter_finishing(df).show()
-    bar_top_creators(df).show()
-    scatter_influence(df).show()
+
