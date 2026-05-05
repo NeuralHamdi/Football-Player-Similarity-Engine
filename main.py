@@ -5,7 +5,7 @@ import sys
 def run_streamlit():
     """Launch the Streamlit dashboard."""
     subprocess.run(
-        [sys.executable, "-m", "streamlit", "run", "app.py"],
+        [sys.executable, "-m", "streamlit", "run", "Dashboard/app.py"],
         check=True,
     )
 
