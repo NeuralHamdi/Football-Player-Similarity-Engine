@@ -2,8 +2,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-
-df = pd.read_csv('../data/football_data_cleaned.csv')
+#
+#df = pd.read_csv('../data/football_data_cleaned.csv')
 
 
 # ── 1. Scatter : Goals vs Assists ────────────────────────────
