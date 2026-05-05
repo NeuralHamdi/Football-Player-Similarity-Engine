@@ -10,12 +10,21 @@ __pycache__/
 venv/
 ENV/
 
+
+.env
+.env.local
 # Jupyter Notebook
 .ipynb_checkpoints/
 
 # PyCharm
-.idea/
+.idea
 
+# Streamlit
+.streamlit/
+
+
+# Logs
+*.log
 # OS
 .DS_Store
 Thumbs.db
