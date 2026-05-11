@@ -1,0 +1,3 @@
+git add Dockerfile .streamlit/config.toml
+git commit -m "chore: add Docker configuration for easy deployment"
+git push origin main
